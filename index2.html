@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="animate.min.css" rel="stylesheet">
+<link href="jquery.gritter.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+
+<link href="css/styleCarousel.css" rel="stylesheet">
+<script src="js/Carouseljs.js"></script>
+<!--<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">-->
+<!--<script src="js/TweenMax.min.js"></script>-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Borg Telecom</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/stylePageStylings2.css" rel="stylesheet">
+    <link href="css/CSS Attachement 1.css" rel="stylesheet">
+    <link href="css/CSS Attachement 4.css" rel="stylesheet">
+    <link href="css/styleFaqIcons.css" rel="stylesheet">
+  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body id="grad1" class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="min-width:1500px; height:2500px !important; position:center;">
+    <!--Navigation Start-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--<p>
+        download and apply this link https://codepen.io/chenius/pen/zLppVZ
+    </p>-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4">
+                <header>
+                    <div class="tab">
+                        <div class="" id="">
+                            <div class="NavBarOnly col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="opacity:0; max-width:400px;">.</div> <!--CSS adds a transparent black border around the nav pannel-->
+
+                            <ul style="max-width:400px; cursor: pointer !important">
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;  display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Home')">Home <div style="padding:5px;" class="fa fa-home"></div> </a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Services')">Services<div style="padding:5px;" class="fa fa-space-shuttle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'About')">About Us<div style="padding:5px;" class="fa fa-info-circle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove; display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Directors')">Packages<div style="padding:5px;" class="fa fa-suitcase"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Testimonials')">CIPC Essential Services<div style="padding:5px;" class="fa fa-info-circle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;">
+                                    <a style="        margin: 0;
+        top: 0;
+        top: 25%;
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        position: relative;
+" onclick="openCity(event, 'Contact Us')">Contact Us<div style="padding:5px;" class="fa fa-credit-card"></div></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <style>
+                .fa-home {
+                    cursor: pointer;
+                }
+
+                .fa-suitcase {
+                    cursor: pointer;
+                }
+
+                .fa-space-shuttle {
+                    cursor: pointer;
+                }
+
+                .fa-info-circle {
+                    cursor: pointer;
+                }
+
+                .fa-credit-card {
+                    cursor: pointer;
+                }
+            </style>
+            <!--Navigation Bar End id=tvTitle-->
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="js/index.js"></script>
+
+
+            <!--Badge Start-->
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="        padding-top: 30px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center;">
+                <div style=" z-index: 1000; text-align:center; max-width:390px;">
+                    <img style="max-width:390px; text-align:center; z-index: 1000;" id="imgBadge" src="Borg-Globe.png" alt="Picture of a Company Logo" />
+                </div>               
+            </div>
+
+
+            <!--Badge End-->
+
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="max-width:240px; margin-bottom:30px; padding-top:30px;">
+                <div id="" style="height: 270px;">
+                    <!--Sale Pamflet Picture Start-->
+                    <h1 style="padding-left: 30px !important; color:#CEF0D4 !important; font-family: Ethnocentric, cursive !important; font-size:70px !important; font-weight:normal; line-height:60px !important; margin: 0 0 50px !important; text-align:center !important; text-shadow: 1px 1px 2px #082b34 !important; ">Borg Telecom</h1>
+                    <h2 style="padding-left: 30px !important; color:#07e8f8 !important; font-family: Ethnocentric !important; font-size:50px !important; font-weight:bold; line-height:45px !important; margin: 0 0 50px !important; text-align:center !important; text-shadow: 1px 1px 2px #082b34 !important; ">Resistance is Futile</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="Home" class="tabcontent">
+            <iframe style="        min-width: 1600px;
+        height: 100%;
+        min-height: 700px;
+        margin-top: 6.5px;
+        padding-top: 6.5px; 
+        border-top: -3px dashed;
+        height: auto;
+        z-index: 1000;
+        background: transparent;" src="Home2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" left="0">
+            </iframe>
+        </div>
+
+        <div id="Directors" class="tabcontent">
+            <iframe style="        min-width: 1500px;
+        height: 100%;
+        min-height: 2300px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        padding-bottom: 50px !important;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="Directors2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+            </iframe>
+        </div>
+
+        <div id="Services" class="tabcontent">
+            <iframe style="min-width: 1500px; height: 100%; min-height: 2300px; margin-top: 6.5px; padding-top: 6.5px; border-top: -3px dashed; height: auto;
+background: transparent;" src="Services2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+            </iframe>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <iframe style="        min-width: 1500px;
+        height: auto;
+        min-height: 1200px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="About2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" left="0">
+            </iframe>
+        </div>
+
+        <div id="Contact Us" class="tabcontent">
+            <iframe style="        min-width: 1500px;
+        height: 100%;
+        min-height: 1550px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="ContactUS2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+            </iframe>
+        </div>
+
+        <div id="Testimonials" class="tabcontent">
+            <iframe style="min-width: 1500px; height: 100%; min-height: 700px; margin-top: 6.5px; padding-top: 6.5px; border-top: -3px dashed; height: auto;
+background: transparent;" src="Testimonials-2.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+            </iframe>
+        </div>
+
+
+        <div class="container" style="padding-top: 10px !important; margin-top:10px !important; z-index: 1000;">
+            <div class="row" style="max-height:270px !important;">
+
+                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; min-width:350px !important; max-height:50px !important;">
+                    <div id="" style="height: 270px;">                        
+                        <a href="https://www.sacoronavirus.co.za" class="" style="color: red; border:10px 10px 10px 10px outset; border-bottom: none !important; font-family: Audiowide; font-size: 28px; min-height: 70px; width:350px;">
+                            <h1 style="color:navajowhite !important; width:350px; padding-left:80px !important;">Covid-19 Portal</h1>
+                            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="        padding-top: 20px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center;">
+                                <div style=" z-index: 1000; text-align:center; max-width:300px; padding-left:-100px;">
+                                    <img style="max-width:400px; text-align:center; z-index: 1000;" id="imgBadge" src="Covid-19.png" alt="Picture of a Company Logo" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; max-height:50px !important;"></div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; min-width:350px !important; max-height:50px !important;">
+                    <div id="" style="height: 270px;">
+                     
+                        <a href="https://wapa.org.za" class="" style=" width:350px; color: red; border:10px 10px 10px 10px outset; border-bottom: none !important; font-family: Audiowide; font-size: 28px; min-height: 70px;">
+                            <h1 style="color:navajowhite !important; width:350px; padding-left:40px !important;">WAPA Member</h1>
+                            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="        padding-top: 20px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center;">
+                                <div style=" z-index: 1000; text-align:center; max-width:300px; padding-left:40px !important;">
+                                    <img style="max-width:300px; text-align:center; z-index: 1000;" id="imgBadge" src="WAPA-logo.png" alt="Picture of a Company Logo" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; max-height:50px !important;"></div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; min-width:350px !important; max-height:50px !important;">
+                    <div id="" style="height: 270px;">
+                        <a href="https://techcentral.co.za/wp-content/uploads/2020/03/43164_26-3_Telecommunications.pdf" class="" style="color: red; border:10px 10px 10px 10px outset; border-bottom: none !important; font-family: Audiowide; font-size: 28px; min-height: 70px;">
+                            <h1 style="color:navajowhite !important;">Government Gazette</h1>
+                            <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="        padding-top: 20px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center;">
+                                <div style=" z-index: 1000; text-align:center; max-width:315px;">
+                                    <img style="max-width:315px; text-align:center; z-index: 1000;" id="imgBadge" src="Staats-Koerant.png" alt="Picture of a Company Logo" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4" style="width:100%; max-height:50px !important;"></div>
+                </div>
+            </div>
+        </div>
+   
+
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" id="" style=" z-index: 1000; padding-top:350px;">
+
+            <!--Foot Start-->
+            <footer class="footer;" style="">
+                <div class="app-download">
+                    <div id="IconsHorizontal" style="float:left; display:block;">
+
+                        <!--
+    <a href="https://www.facebook.com/stealthguarding/" class="fa fa-instagram"></a>
+                        <a href="https://www.reddit.com/r/domesticviolence/comments/5y4i6r/safety_and_security_tips_for_domestic_violence/" class="fa fa-reddit"></a>
+                        <a href="https://www.youtube.com/watch?v=sYS72a1LF1E" class="fa fa-youtube"></a>
+                        <a href="https://www.security.co.za/news" class="fa fa-google"></a>-->
+                        <a href="https://www.facebook.com/stealthguarding/" class="fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/BorgTelecom/" class="fa fa-facebook"></a>
+                        <style>
+                            a {
+                                cursor: pointer !important;
+                                color: lightblue;
+                                font-weight: bold;
+                                font-family: audiowide;
+                                font-size: 16px !important;
+                            }
+
+                                a:hover {
+                                    color: turquoise !important;
+                                }
+                        </style>
+                       
+                        <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="#top">Top</a>
+                        <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="FAQ2.html">FAQ</a>
+
+                    </div>
+                    <label style="color:snow; font-size:26px !important;" id="first-title">Copyright All Rights Reserved. Best Business by Axle Themes</label>
+                    <h4 style="cursor: pointer !important"><label style="cursor: pointer !important" id="second-title" onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'">Privacy and Terms</label></h4>
+                </div>
+
+                <nav style="position:center; z-index:1000; border-radius: 20px 20px 20px 20px;" class="menu">
+                    <h4 style="padding-bottom: 6.2px;" onclick="document.getElementsByTagName('nav')[0].className = 'menu'">CLOSE</h4>
+
+                    <iframe style="margin-top:6.5px; padding-top:6.5px; border-top: -3px dashed; min-height:500px; max-height:1000px; height:100%; width:100%; min-width:300px; height:auto; background:transparent;" src="Terms and Conditions2.html" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0">
+                    </iframe>
+
+                </nav>
+            </footer>
+            <!--Footer End-->
+        </div>
+</body>
+</html>
